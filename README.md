@@ -29,7 +29,7 @@ In Snake game exists a LeaderBoard where is printing top 10 playes in descending
 
 ## Running:
 - Start your web server(Apache) and database server or with XAMP just open it and start apache and database server;
-- In browser type localhost/FinalPr_WEB3 (where will be directionate to the index.php page)
+- In browser type ```localhost/FinalPr_WEB3``` (where will be directionate to the index.php page)
 
 ## Images Project
 ![Web_Store_Games1](https://github.com/user-attachments/assets/2bb62d34-8258-4796-9a0d-c85a3ca71808)
