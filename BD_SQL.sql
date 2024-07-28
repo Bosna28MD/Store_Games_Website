@@ -39,5 +39,9 @@ primary key(id_tranzactie)
 
 
 
-
-
+create table if not exists tabel_snakegame(
+id_score int not null auto_increment primary key,
+user_email VARCHAR(256),
+name_user VARCHAR(256),
+points int
+);
