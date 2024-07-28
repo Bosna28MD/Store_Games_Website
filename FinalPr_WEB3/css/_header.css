@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-color: rgb(46, 78, 148);  /* background-image: url("img/BackGround_IMG.jpg"); */
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+    background-color: azure;
+    padding: 15px;
+    
+}
+
+header{
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0.5px;
+    opacity: 0.8;
+    background-color:aliceblue;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .men_div{
+    display: flex;
+    
+}
+
+.men_div ul{
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.men_div ul li{
+    list-style-type: none;
+    
+    /*margin:8px 0;*/
+    /*padding: 5px 25px;
+    border: 2px solid blue;*/
+    height: 20px;
+    margin-top: 12px;
+    
+}
+
+.men_div ul li a{
+    padding: 5px 25px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.men_div ul li a:hover{
+    background-color: aqua;
+}
+
+#div_men2 #info_user{
+    width: 200px;
+    border: 3px solid gray;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 10px;
+    
+}
+
+
+/*  #img_logo{
+    width: 50px;
+    height: 50px;
+    
+}  */
+
+.logo_images{
+    width: 45px;
+    height: 45px;
+}
+
+#img_phone{
+    display: none;
+}
+
+
+
+#info_user, #men_log_out{
+    display: none;
+}
+
+.men_div ul li a{
+    text-decoration: none;
+}
+
+#timer{
+    display: none;
+}
+
+#take_money{
+    background-color: gold;
+    display: none;
+}
+
+footer{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+footer hr{
+    width: 85%;
+    margin: auto;
+}
+
+#footer_text{
+    text-align: center;
+    font-size: 18px;
+    font-style:oblique;
+    
+}
+
+
+.men_mobil{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    margin: 30px 0;
+    width: 100%;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 95%;
+    
+    
+    
+}
+
+
+i{
+    color: white;
+    font-size: 100px;
+}
+
+.men_mobil button{
+    width: 100%;
+    background-color: black;
+}
+
+.men_mobil button i{
+    margin: 100px 0;
+}
+
+.men_mobil ul{
+    list-style-type: none;
+    width: 100%;
+}
+
+.men_mobil ul li{
+    font-size: 30px;
+    padding: 22px;
+    border-bottom:1px solid white ;
+    border-top:1px solid white ;
+}
+
+#mob_id ul li a{
+    text-decoration: none;
+}
+
+
+
+
+#mob_id{display: none;}
+
+#btn_phone{
+    display: none;
+}
+
+#btn_phone img{
+    height: 20px;
+    width: 20px;
+}
+
+
+@media screen and (max-width: 1050px){ /*Afisarea meniul_hamburger si ascunderea meniul desktop*/
+    #img_phone, #btn_phone{
+         display: block;
+    }
+
+    #div_men1,#men_log_in{
+         display: none;
+    }
+
+    #div_men2, #men_log_out{
+        display: none ;
+    }
+
+
+
+
+}
+
+#mob_id ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+#men_mob_name{
+    text-align: center;
+    color: orange;
+}
+
+/* #mob_id ul li a{
+    text-decoration: none;
+    color:white;
+} */
